@@ -42,7 +42,7 @@ const data = [
     title: "Kost.In",
     category: "Mobile Application",
     description: "Kost.In is a super app mobile application that help user to find and book kost in Indonesia. It also comes with feature to pay the kost and see the review of the kost. We only made the design and bussiness plan of this application.",
-    img: "https://drive.google.com/uc?export=view&id=1g20SMV8MNrRcF3hQtYoljlleFZmf4qfV"
+    img: " https://drive.google.com/uc?id=1KvVV3YuwDLh98k7PIr61hQNjvDaTBCiu"
   },
 
 ]
