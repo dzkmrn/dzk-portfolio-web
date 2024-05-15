@@ -10,6 +10,9 @@ const myTitle = "Hello World! I'm Dzaka | Mobile and Web Developer";
 const myDesc = {
   subtitle: "I'm a fullstack developer that experienced in mobile and web development using native and framework technology.",
 };
+const myCv = {
+  subtitle: "https://drive.google.com/file/d/1QGPNjBrnO0hm2xZtkg-He5V6hWFI9KjS/view?usp=drive_link"
+};
 
 
 export default function Home({ setting }) {
@@ -41,7 +44,7 @@ export default function Home({ setting }) {
             </a>
           </Link>{" "}
           and also{" "}
-          <a href={setting.cv_link} target={"_blank"} rel="noreferrer">
+          <a href={myCv.subtitle} target={"_blank"} rel="noreferrer">
             <span className="font-semibold underline">Download My CV</span>
           </a>
         </p>
