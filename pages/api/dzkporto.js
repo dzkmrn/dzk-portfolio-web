@@ -25,20 +25,27 @@ const data = [
   },
   {
     id: 4,
+    title: "Redesign Website SPMB Polinema",
+    category: "Website Application",
+    description: "Redesign SPMB Polinema website to make it more user friendly and modern. We try to redesign it by first designing the UI in Figma",
+    img: "https://drive.google.com/uc?export=view&id=1BvR5wv8OQbME31mFKWZZ-AxiaBhgrSUO"
+  },
+  {
+    id: 5,
     title: "SALZA",
     category: "Website Application",
     description: "SALZA is a website that help muslim in Jabodetabek specifically see praying time. Also comes with zakat recording feature. SALZA is made with PHP native and mysql",
     img: "https://drive.google.com/uc?export=view&id=1QMAB8E0sjPR0XoVu4eYzVHH5Ul_xohkb"
   },
-    {
-    id: 5,
+  {
+    id: 6,
     title: "Multimedia Pesanggrahan",
     category: "Desktop and Mobile Application",
     description: "Pesanggrahan Multimedia is a desktop and mobile application that help user to see the information about Pesanggrahan. It also comes with feature to see the gallery of Pesanggrahan. This application is made with Adobe Animate and ActionScript 3.0.",
     img: "https://drive.google.com/uc?id=1g20SMV8MNrRcF3hQtYoljlleFZmf4qfV"
   },
   {
-    id: 6,
+    id: 7,
     title: "Kost.In",
     category: "Mobile Application",
     description: "Kost.In is a super app mobile application that help user to find and book kost in Indonesia. It also comes with feature to pay the kost and see the review of the kost. We only made the design and bussiness plan of this application.",
