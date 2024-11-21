@@ -3,5 +3,15 @@ import Navbar from "../navbar/Navbar";
 import SwitchMode from "../SwitchMode";
 
 export default function MainLayout({ children }) {
-  
+  return (
+    <div className=" dark:bg-black ">
+      <Navbar />
+      <div className="relative main-body min-h-screen lg:pt-20 pt-10">
+        <div className="xl:px-60 px-8 ">{children}</div>
+        <SwitchMode />
+        <footer className="text-center absolute bottom-0 right-0 left-0 py-5">
+        </footer>
+      </div>
+    </div>
+  );
 }
