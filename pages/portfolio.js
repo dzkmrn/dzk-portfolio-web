@@ -152,19 +152,4 @@ export default function Portofolio() {
   );
 }
 
-export async function getServerSideProps({ query }) {
-  let url = "items/portfolio";
-  if (query.filter) {
-    const params = encodeURIComponent(
-      JSON.stringify({ category: query.filter })
-    );
-    const filter = `?filter=${params}`;
-    url = `items/portfolio${filter}`;
-  }
-  const req = await http.get(url);
-  return {
-    props: {
-      portfolios: req.data,
-    },
-  };
-}
+

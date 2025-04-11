@@ -61,12 +61,3 @@ export default function Home({ setting }) {
     </div>
   );
 }
-
-export async function getStaticProps() {
-  const req = await http.get("/item/home");
-  return {
-    props: {
-      setting: req.data,
-    },
-  };
-}
