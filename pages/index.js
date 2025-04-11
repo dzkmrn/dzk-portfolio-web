@@ -11,7 +11,7 @@ const myDesc = {
   subtitle: "I'm a fullstack developer that experienced in mobile and web development using native and framework technology.",
 };
 const myCv = {
-  subtitle: "https://drive.google.com/file/d/1QGPNjBrnO0hm2xZtkg-He5V6hWFI9KjS/view?usp=drive_link"
+  subtitle: "https://drive.google.com/file/d/11i3fwQydLg9QxCLfzfm8GlpIs-EQvZrU/view?usp=drive_link"
 };
 
 
